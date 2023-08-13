@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* HTML and Body styles */
+
+html {
+   background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(95, 82, 69));
+   font-family: Verdana, Geneva, sans-serif;
+   min-height: 100%;
+	font-size: 16px;
+}
+
+body {
+   background: white;   
+   box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+   margin: 0px auto;
+   min-height: 100%;
+   min-width: 320px;
+   max-width: 1024px;
+   width: 100%;
+}
+
+
+/* Header styles */
+
+header img#heroImg {
+   display: block;
+   width: 100%;
+}
+
+header {
+   border-bottom: 1px solid rgb(0, 0, 0);
+   color: white;
+   position: relative;
+   width: 100%;
+	margin-bottom: 20px;
+}
+
+/* Navigation list styles */
+
+header nav.horizontal {
+   position: absolute;
+   top:0px;
+   left: 0px;
+   width: 60%;
+   -webkit-flex: 0 1;
+   flex: 0 1;   
+}
+
+body header nav ul {
+   display: -webkit-flex;
+   display: flex;
+   
+}
+
+nav.horizontal ul li {
+   -webkit-flex: 1 1;
+   flex: 1 1;
+   font-size: 1.2em;
+   line-height: 2.5em;
+   height: 2.5em; 
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+       
+}
+
+nav.horizontal ul li a {
+   background-color: rgba(255, 255, 255, 0.2);
+   display: block;
+   color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+}
+
+nav.horizontal ul li a:hover {
+   background-color: rgba(164, 46, 12, 0.5);
+}
+
+ul.mainmenu > li#selected a {
+   background-color: rgba(255, 255, 255, 0.6);
+}
+
+a#navicon {
+	display: none;
+}
+
+/* Article Styles */
+h1, h2 {
+	font-size: 1.5em;
+	width:inherit;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 1em;
+	width:inherit;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 5px;
+}
+
+
+
+
+
+iframe {
+	width: 80%;
+		box-shadow: rgb(36, 55, 70);
+
+	display: block;
+	margin: 10px auto;
+	margin-bottom: 30px;
+	
+}
+
+
+p {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	margin-top: 10px;
+}
+
+.suburban {
+	float: left;
+	margin-left: 5%;
+}
+
+/*Figure styles*/
+figure figcaption {
+	background-color: white;
+	font-size: .8em;
+	font-style: italic;
+	padding: 10px 0;
+	text-align: center;
+	background: rgb(144, 135, 116, 0.3);
+	width: 60%;
+	margin-left: 20%;
+		margin-bottom: 30px;
+
+	
+}
+figure.old img {
+	width: 60%;
+	border-style: solid;
+	border-width: 25px;
+	margin-left: 20%;
+	margin-right: auto;
+	margin-top: 30px;
+
+}
+
+figure.kids img {
+	width: 60%;
+	border-style: solid;
+	border-color: ivory;
+	border-width: 10px;
+	margin-left: 20%;
+	margin-right: auto;
+	margin-top: 30px;
+
+}
+
+ figure.chart img {
+	border-style: solid;
+	border-width: 5px;
+	margin-left: 10%;
+	margin-right: auto;
+	border-color: rgb(95, 82, 69);
+
+}
+figure.chart img {
+	width: 85%;
+	display: flex;
+	
+
+}
+
+figure.army img {
+	width: 60%;
+	display: flex;
+	margin-left: 10%;
+	margin-top: 15px;
+}
+
+figure figcaption.fam {
+	background-color: white;
+	font-size: .8em;
+	font-style: italic;
+	padding: 10px;
+	text-align: center;
+	background: rgb(144, 135, 116, 0.3);
+	margin-left: 10%;
+		margin-bottom: 30px;
+	width: 85%;
+	display: flex;
+
+	
+}
+
+figcaption.fireplace {
+	background-color: white;
+	font-size: .8em;
+	font-style: italic;
+	padding: 10px 0;
+	text-align: center;
+	background: rgb(144, 135, 116, 0.3);
+	width: 60%;
+	margin-left: 20%;
+		margin-bottom: 30px;
+}
+
+.resume img {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	border: thin solid rgb(144, 135, 116);
+}
+.cols4 {
+		margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+
+/* Table Styles */
+.table-container {
+    max-width: 600px;
+    margin: 50px auto;
+	font-family: Courier New;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.header-cell {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.patents {
+	margin-top: 10px;
+	margin-left: 5%;
+	max-width: 90%;
+}
+
+/* Timeline styles */
+
+.timeline {
+  margin-left: 20%;
+	border-left: 2px solid #999;
+  padding-left: 20px;
+  
+}
+
+
+.timeline dl {
+  
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.timeline dt {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.timeline dd {
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+
+/* Newspaper Styles */
+.newspaper-aside {
+    max-width: 1200px;
+    padding: 20px;
+    background-color: rgba(191, 156, 134, 0.4);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+h2.news {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+	column-span: all;
+	font-family: Times New Roman;
+}
+
+.author {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+	font-size: 0.8em;
+}
+
+p.paper {
+    text-align: justify;
+    line-height: 1.5;
+	font-family: Courier New;
+	font-size: 0.8em;
+}
+
+.source {
+    font-style: italic;
+    text-align: left;
+	font-size: 1em;
+	column-span: all;
+	margin-bottom: 10px;
+}
+
+
+.news-photo {
+	margin: 20px 2px 0px;
+	width: 95%;
+}
+
+.news-photo img {
+	display: block;
+	width: 95%;
+}
+
+.news-photo figcaption {
+	margin-left: 10px;
+	width: 85%;
+	break-before: avoid;
+}
+/* Footer Styles */
+
+body > footer {
+   background-color: rgba(144, 135, 116, 0.3);
+   font-size: 0.9em;
+   text-align: center;
+   padding: 10px 0px;
+	color: rgb(31, 73, 125);
+	margin-top: 20px;
+	clear: 
+		both;
+}
+body > footer > p {
+	padding-bottom: 10px;
+}
+
+/* ================================
+	Mobile Styles: 0px to 480px
+   ================================
+*/
+@media only screen and (max-width: 480px) {
+	p {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+	figure#child img {
+	width: 85%;
+	border-style: solid;
+	border-width: 5px;
+	margin-left: 7%;
+	margin-right: auto;
+	margin-top: 10px;
+
+}
+	
+	
+	
+	
+	a#navicon {
+		display: block;
+		
+	}
+	
+	nav.horizontal ul {
+		display: none;
+		
+	}
+	
+	a#navicon:hover+ul, nav.horizontal ul:hover {
+		display: block;
+		
+	}
+	
+	nav.horizontal ul li {
+   font-size: 1em;
+   line-height: 2em;
+   height: 1.5em; 
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+       
+}
+
+nav.horizontal ul li a {
+   background-color: rgba(255, 255, 255);
+   display: block;
+   color: darkblue;
+   
+}
+	
+	ul.mainmenu > li#selected a {
+   background-color: rgba(95, 82, 69);
+}
+	
+	.timeline {
+  margin-left: 5%;
+  padding-left: 5px;
+  
+}
+
+
+.timeline dl {
+  
+  padding-left: 2px;
+}
+	
+	figure.army img {
+	width: 60%;
+	margin-left: 15%;
+	margin-top: 15px;
+}
+	.table-container {
+    max-width: 300px;
+    margin: 40px auto;
+	font-family: Courier New;
+		font-size: 0.8em;
+}
+
+table {
+    width: 80%;
+    
+}
+	
+}
+	
+/* ================================
+	Tablet/Desktop Styles: 480px and up
+   ================================
+*/
+
+@media only screen and (min-width: 480px) {
+	
+	.cols {
+		column-count: 2;
+	}
+	
+	figure figcaption.fam {
+		break-before: avoid;
+	}
+	
+	.newspaper-aside {
+	column-count: 3;
+}
+	
+	.cols4 {
+		column-count: 4;
+	}
+}
